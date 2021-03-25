@@ -29,7 +29,7 @@ python scripts/prepro_reference_json.py
 --output_json coco-caption/person_captions4eval_-1.json 
 --gdindex -1
 ```
-gdindex and the output_json file name could be changed from (0-4)
+gdindex and the output_json file name could be changed from (0-4)\\
 Train the model
 ```
 id="densepembed2_added"
@@ -67,4 +67,24 @@ python densetrain3m.py --id $id \
     --scheduled_sampling_max_prob 0.5 \
     --learning_rate_decay_every 5 \
 
+```
+Eval the model
+```
+id="densepembed2_added" 
+python  denseeval3m.py --id $id \
+    --dump_images 0 \ 
+    --num_images -1 \
+    --split test    \   
+    --input_json data/personcap_added1.json \
+    --input_label_h5 data/personcap_added1_label.h5 \
+    --input_fc_dir   ParlAI/data/yfcc_images/resnext101_32x48d_wsl \
+    --input_att_dir   ParlAI/data/yfcc_images/resnext101_32x48d_wsl_spatial_att \
+    --perss_onehot_h5  data/person_onehot_added1.h5 \
+    --batch_size 128 \
+    --seq_per_img  5 \ 
+    --beam_size 5 \ 
+    --language_eval 1 \ 
+    --infos_path log_added_new/log_$id/infos_$id-best.pkl \
+    --model log_added_new/log_$id/model-best.pth       \   
+    --temperature 1.0  
 ```
