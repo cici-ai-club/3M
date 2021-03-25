@@ -19,7 +19,7 @@ python scripts/prepro_ngrams.py
 --split val 
 --output_pkl data/person-val
 ```
-split above could be changed to test, train or all.
+split above could be changed to test, train or all. <br />
 3. prepare reference for evaluation
 ```
 python scripts/prepro_reference_json.py 
@@ -29,7 +29,7 @@ python scripts/prepro_reference_json.py
 --output_json coco-caption/person_captions4eval_-1.json 
 --gdindex -1
 ```
-gdindex and the output_json file name could be changed from (0-4)\\
+gdindex and the output_json file name could be changed from (0-4) <br />
 Train the model
 ```
 id="densepembed2_added"
