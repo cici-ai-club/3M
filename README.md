@@ -1,4 +1,4 @@
-# 3M_stylish
+# 3M
 Example script for Data Processing
 1. prepare labels
 ```
@@ -88,3 +88,18 @@ python  denseeval3m.py --id $id \
     --model log_added_new/log_$id/model-best.pth       \   
     --temperature 1.0  
 ```
+Get resnext features from https://github.com/facebookresearch/ParlAI
+
+# Reference
+Cite this paper if you find useful or use it.
+```
+@misc{2103.11186,
+Author = {Chengxi Li and Brent Harrison},
+Title = {3M: Multi-style image caption generation using Multi-modality features under Multi-UPDOWN model},
+Year = {2021},
+Eprint = {arXiv:2103.11186},
+}
+
+```
+# Acknowledge 
+A lot of code of here are from Ruotian's repo https://github.com/ruotianluo/self-critical.pytorch
