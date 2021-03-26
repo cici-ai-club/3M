@@ -91,7 +91,7 @@ python  denseeval3m.py --id $id \
 Get resnext features from https://github.com/facebookresearch/ParlAI
 
 # Reference
-Cite this paper if you find useful or use it.
+Cite this paper if you find useful or use the code.
 ```
 @misc{2103.11186,
 Author = {Chengxi Li and Brent Harrison},
