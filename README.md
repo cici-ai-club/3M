@@ -95,7 +95,31 @@ python  denseeval3m.py --id $id \
 Get resnext features from https://github.com/facebookresearch/ParlAI
 
 # Reference
-Cite this paper if you find useful or use the code.
+```
+@inproceedings{johnson2016densecap,
+  title={Densecap: Fully convolutional localization networks for dense captioning},
+  author={Johnson, Justin and Karpathy, Andrej and Fei-Fei, Li},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4565--4574},
+  year={2016}
+}
+@inproceedings{shuster2019engaging,
+  title={Engaging image captioning via personality},
+  author={Shuster, Kurt and Humeau, Samuel and Hu, Hexiang and Bordes, Antoine and Weston, Jason},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12516--12526},
+  year={2019}
+}
+@inproceedings{anderson2018bottom,
+  title={Bottom-up and top-down attention for image captioning and visual question answering},
+  author={Anderson, Peter and He, Xiaodong and Buehler, Chris and Teney, Damien and Johnson, Mark and Gould, Stephen and Zhang, Lei},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={6077--6086},
+  year={2018}
+}
+```
+# Citation
+Cite this paper if you find anything useful or use the code.
 ```
 @misc{2103.11186,
 Author = {Chengxi Li and Brent Harrison},
