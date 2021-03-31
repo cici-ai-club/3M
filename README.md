@@ -1,7 +1,7 @@
 # 3M
 ## Pretrained Features
 1. Dense captions, since this one is small, we directly upload to the folder 3M/data/
-2. ResNext features (We extract them by following the instructions under https://github.com/facebookresearch/ParlAI), the features folder finally we saved are  resnext101_32x48d_wsl/  resnext101_32x48d_wsl_spatial_att/
+2. ResNext features (We extract them by following the instructions under https://github.com/facebookresearch/ParlAI), the features we used are mean-pooled image  features saved in resnext101_32x48d_wsl/ and spatial feature saved in resnext101_32x48d_wsl_spatial_att/. 
 
 ## Example script for Data Processing
 1. prepare labels
