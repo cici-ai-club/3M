@@ -131,4 +131,4 @@ Eprint = {arXiv:2103.11186},
 
 ```
 # Acknowledge 
-A lot of code of here are from Ruotian's repo https://github.com/ruotianluo/self-critical.pytorch
+A lot of code of here are derived from Ruotian's repo https://github.com/ruotianluo/self-critical.pytorch
