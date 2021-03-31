@@ -1,6 +1,6 @@
 # 3M
 ## Pretrained Features
-1. Dense captions, since this one is small, we directly upload to the folder 3M/data/
+1. Dense captions features(follow the code by https://github.com/jcjohnson/densecap)
 2. ResNext features (We extract them by following the instructions under https://github.com/facebookresearch/ParlAI), the features we used are mean-pooled image  features saved in resnext101_32x48d_wsl/ and spatial feature saved in resnext101_32x48d_wsl_spatial_att/. 
 
 ## Example script for Data Processing
@@ -14,6 +14,7 @@ python scripts/prepro_labels.py
 --densecap_h5 data/densecap_added1 
 --personality_path ParlAI/data/personality_captions/personalities.txt
 ```
+We convert original personality caption dataset to dataset_person.json based on the format recommend in https://github.com/ruotianluo/self-critical.pytorch
 2. prepare ngrams
 ```
 python scripts/prepro_ngrams.py 
