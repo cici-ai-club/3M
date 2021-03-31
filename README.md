@@ -48,8 +48,8 @@ python densetrain3m.py --id $id \
     --label_smoothing 0 \
     --input_json data/personcap_added1.json \
     --input_label_h5 data/personcap_added1_label.h5 \
-    --input_fc_dir   ParlAI/data/yfcc_images/resnext101_32x48d_wsl \
-    --input_att_dir  ParlAI/data/yfcc_images/resnext101_32x48d_wsl_spatial_att \
+    --input_fc_dir   data/yfcc_images/resnext101_32x48d_wsl \
+    --input_att_dir  data/yfcc_images/resnext101_32x48d_wsl_spatial_att \
     --input_box_dir  data/cocobu_box \
     --perss_onehot_h5  data/person_onehot_added1.h5 \
     --cached_tokens  data/person-train-idxs \
@@ -84,8 +84,8 @@ python  denseeval3m.py --id $id \
     --split test    \   
     --input_json data/personcap_added1.json \
     --input_label_h5 data/personcap_added1_label.h5 \
-    --input_fc_dir   ParlAI/data/yfcc_images/resnext101_32x48d_wsl \
-    --input_att_dir   ParlAI/data/yfcc_images/resnext101_32x48d_wsl_spatial_att \
+    --input_fc_dir   data/yfcc_images/resnext101_32x48d_wsl \
+    --input_att_dir   data/yfcc_images/resnext101_32x48d_wsl_spatial_att \
     --perss_onehot_h5  data/person_onehot_added1.h5 \
     --batch_size 128 \
     --seq_per_img  5 \ 
