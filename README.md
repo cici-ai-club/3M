@@ -1,6 +1,6 @@
 # 3M
 ## Architeture 
-![Alt text](imgs/architecture.nng?raw=true "Title")
+![Alt text](architecture(2).png?raw=true "Title")
 ## Pretrained Features
 1. Extract Dense captions features(follow the code by https://github.com/jcjohnson/densecap)
 2. ResNext features (We extract them by following the instructions under https://github.com/facebookresearch/ParlAI), the features we used are mean-pooled image  features saved in resnext101_32x48d_wsl/ and spatial feature saved in resnext101_32x48d_wsl_spatial_att/. 
