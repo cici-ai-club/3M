@@ -16,7 +16,7 @@ python scripts/prepro_labels.py
 --densecap_h5 data/densecap_added1 
 --personality_path ParlAI/data/personality_captions/personalities.txt
 ```
-We convert original personality caption dataset to dataset_person.json based on the format recommend in https://github.com/ruotianluo/self-critical.pytorch <br />
+We convert original personality caption dataset to dataset_person.json based on the format recommended in https://github.com/ruotianluo/self-critical.pytorch <br />
 2. prepare ngrams
 ```
 python scripts/prepro_ngrams.py 
