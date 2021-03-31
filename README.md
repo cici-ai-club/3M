@@ -7,7 +7,7 @@
 1. prepare labels
 ```
 python scripts/prepro_labels.py 
---input_json ParlAI/data/personality_captions/dataset_person.json 
+--input_json data/dataset_person.json 
 --output_json data/personcap_added1.json 
 --output_h5 data/personcap_added1  
 --perssOnehot_h5 data/person_onehot_added1 
@@ -18,7 +18,7 @@ python scripts/prepro_labels.py
 ```
 python scripts/prepro_ngrams.py 
 --rm_punc 0 
---input_json ParlAI/data/personality_captions/dataset_person.json 
+--input_json data/dataset_person.json 
 --dict_json data/personcap_added1.json 
 --split val 
 --output_pkl data/person-val
