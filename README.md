@@ -95,8 +95,6 @@ python  denseeval3m.py --id $id \
     --model log_added_new/log_$id/model-best.pth       \   
     --temperature 1.0  
 ```
-Get resnext features from https://github.com/facebookresearch/ParlAI
-
 # Reference
 ```
 @inproceedings{johnson2016densecap,
