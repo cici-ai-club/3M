@@ -1,5 +1,9 @@
 # 3M
-Example script for Data Processing
+## Pretrained Features
+1. Dense captions, since this one is small, we directly upload to the folder./data/
+2. ResNext features (We extract them by following the instructions under https://github.com/facebookresearch/ParlAI), the features folder finally we saved are  resnext101_32x48d_wsl/  resnext101_32x48d_wsl_spatial_att/
+
+## Example script for Data Processing
 1. prepare labels
 ```
 python scripts/prepro_labels.py 
@@ -30,7 +34,7 @@ python scripts/prepro_reference_json.py
 --gdindex -1
 ```
 gdindex and the output_json file name could be changed from (0-4) <br />
-Train the model
+## Train the model
 ```
 id="densepembed2_added"
 python densetrain3m.py --id $id \
@@ -68,7 +72,7 @@ python densetrain3m.py --id $id \
     --learning_rate_decay_every 5 \
 
 ```
-Eval the model
+## Eval the model
 ```
 id="densepembed2_added" 
 python  denseeval3m.py --id $id \
