@@ -99,7 +99,7 @@ python  denseeval3m.py --id $id \
 ```
 ## Large files you could get from us.
 Pretrained Model, extracted dense caption and reformated personality caption data could get from here:
-https://drive.google.com/drive/folders/1lOBETKGPYK6gHdFOV9WtSYaTez6Vphxq?usp=sharing
+https://drive.google.com/drive/folders/1lOBETKGPYK6gHdFOV9WtSYaTez6Vphxq?
 # Reference
 ```
 @inproceedings{johnson2016densecap,
