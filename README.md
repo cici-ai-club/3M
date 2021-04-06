@@ -97,6 +97,8 @@ python  denseeval3m.py --id $id \
     --model log_added_new/log_$id/model-best.pth       \   
     --temperature 1.0  
 ```
+Pretrained Model, extracted dense caption and reformated personality caption data could get from here:
+https://drive.google.com/drive/folders/1lOBETKGPYK6gHdFOV9WtSYaTez6Vphxq?usp=sharing
 # Reference
 ```
 @inproceedings{johnson2016densecap,
