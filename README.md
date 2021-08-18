@@ -5,7 +5,8 @@
 1. Extract Dense captions features(follow the code by https://github.com/jcjohnson/densecap)
 2. ResNext features (We extract them by following the instructions under https://github.com/facebookresearch/ParlAI), the features we used are mean-pooled image  features saved in resnext101_32x48d_wsl/ and spatial feature saved in resnext101_32x48d_wsl_spatial_att/. 
 Note: we do not change the netwrok in dense caption or ResNext network, we just directly use the pretrained network to generate our features for stylish captioning task.
-
+##Updates
+The images we didn't use is the ones cannot be downloaded from https://github.com/facebookresearch/ParlAI, which are ac8*.jpg
 ## Example script for Data Processing
 1. prepare labels
 ```
