@@ -7,7 +7,8 @@
 Note: we do not change the netwrok in dense caption or ResNext network, we just directly use the pretrained network to generate our features for stylish captioning task.
 ## Updates
 1. The images we didn't use is the ones cannot be downloaded from https://github.com/facebookresearch/ParlAI, which are ac8*.jpg
-2. If there is any I remember later
+2. I added img_caption.json (this files contains dense captions extracted from the images) into drive: https://drive.google.com/drive/folders/170palQ7QzRsY2ZRyaDTIQAcdHyuVZsFe?
+3. If there is any I remember later
 ## Example script for Data Processing
 1. prepare labels
 ```
